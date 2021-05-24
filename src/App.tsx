@@ -1,8 +1,8 @@
-import "./style.css";
-import "./customStyles.scss";
-import Peter from "./peter.jpg";
-import FlutterLogo from "./flutter.svg";
-import { ClickCounter } from "./ClickCounter";
+import './style.css'
+import './customStyles.scss'
+import Peter from './peter.jpg'
+import FlutterLogo from './flutter.svg'
+import { ClickCounter } from './ClickCounter'
 
 export const App = () => {
   return (
@@ -15,5 +15,5 @@ export const App = () => {
       <img src={FlutterLogo} alt="Just flutter logo" width="200" height="200" />
       <ClickCounter />
     </>
-  );
-};
+  )
+}
