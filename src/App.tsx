@@ -5,9 +5,10 @@ import FlutterLogo from './flutter.svg'
 import { ClickCounter } from './ClickCounter'
 
 export const App = () => {
+  const person = 'Piotr'
   return (
     <>
-      <h1>Hello World!</h1>
+      <h1>Hello World! {person}</h1>
       <h2>
         What a wonderful day!! {process.env.NODE_ENV} {process.env.name}
       </h2>
